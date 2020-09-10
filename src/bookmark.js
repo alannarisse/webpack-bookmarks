@@ -78,7 +78,7 @@ const generateBookmarkElementCondensed = function(bookmark) {
   return `
   <li class="js-bookmark-element" data-bookmark-id="${bookmark.id}">
     ${bookmarkTitle}
-    <span class="bookmarked-star-rating">${bookmark.ratingByStars}</span>  
+    <span class="bookmarked-star-rating">${bookmark.rating}</span>  
     <section class="bookmark-controls" name="bookmark-controls">
       <button class="bookmark-expand-details js-bookmark-expand">
         <span class="bookmark-label" name="expand-bookmark">Expand Bookmark</span>
