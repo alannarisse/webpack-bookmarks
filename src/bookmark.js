@@ -15,11 +15,11 @@ const generateHomeHTML = function() {
         <span class="rating-filter-label">Filter by rating!</span>
         <select id="ratingFilter" name="ratingFilter" aria-label="desired-bookmark-rating">
           <option value="0"> 0 </option>              
-          <option value="1"> &#xf185 </option>
-          <option value="2"> &#xf185 &#xf185 </option>
-          <option value="3"> &#xf185 &#xf185 &#xf185 </option>
-          <option value="4"> &#xf185 &#xf185 &#xf185 &#xf185 </option>
-          <option value="5"> &#xf185 &#xf185 &#xf185 &#xf185 &#xf185 </option>            
+          <option value="1"> * </option>
+          <option value="2"> * * </option>
+          <option value="3"> * * * </option>
+          <option value="4"> * * * * </option>
+          <option value="5"> * * * * * </option>            
         </select>
       </section>
       <ul name="bookmarked-pages" class="js-bookmarked-pages">
@@ -47,12 +47,13 @@ const generateNewBookmarkHTML = function() {
                 </section>
                 <section class="form-box">
                 <label for="bookmarkRating">Bookmark Rating</label>                
-                <select name="ratingSelect-zero-to-five" id='ratingSelect' aria-label="Bookmark-rating">
-                  <option value="1"> &#xf185 </option>
-                  <option value="2"> &#xf185 &#xf185 </option>
-                  <option value="3"> &#xf185 &#xf185 &#xf185 </option>
-                  <option value="4"> &#xf185 &#xf185 &#xf185 &#xf185 </option>
-                  <option value="5"> &#xf185 &#xf185 &#xf185 &#xf185 &#xf185 </option>
+                <select id="ratingFilter" name="ratingFilter" aria-label="desired-bookmark-rating">
+                  <option value="0"> 0 </option>              
+                  <option value="1"> * </option>
+                  <option value="2"> * * </option>
+                  <option value="3"> * * * </option>
+                  <option value="4"> * * * * </option>
+                  <option value="5"> * * * * * </option>            
                 </select>                
                 </section>
                 <section class="form-box">
