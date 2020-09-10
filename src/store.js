@@ -1,7 +1,7 @@
 let bookmarks = [];
 let error;
 let adding = false;
-let filter = 0;
+let rating = 0;
 
 
 const findById = function(id) {
@@ -17,7 +17,7 @@ const addStars = function(rating) {
 };
 
 const addBookmark = function(bookmark) {
-  const newBookmark = Object.assign(bookmark, { expanded: false }, { ratingByStars: addStars(bookmark.rating) });
+  const newBookmark = Object.assign(bookmark, { expanded: false }, { ratingFilter: addStars(bookmark.rating) });
   this.bookmarks.push(newBookmark);
 };
 
