@@ -33,6 +33,6 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # for example
-git push -f git@github.com:thinkful-ei-rabbit/amanda-bookmark.git master:gh-pages
+git push -f alannarisse@github.com:alannarisse.github.io/webpack-bookmarks.git master:gh-pages
 
  cd -

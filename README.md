@@ -1,4 +1,4 @@
-Live URL: https://thinkful-ei-rabbit.github.io/amanda-bookmark/
+Live URL: https://alannarisse.github.io/webpack-bookmarks/
 
 User Stories
 As a user:
@@ -11,11 +11,11 @@ description
 rating (1-5)
 I can see a list of my bookmarks when I first open the app
 
-All bookmarks in the list default to a "condensed" view showing only title and rating
+All bookmarks in the list default to a "condensed" view showing only title and ratingo
 I can click on a bookmark to display the "detailed" view
 
 Detailed view expands to additionally display description and a "Visit Site" link
-I can remove bookmarks from my bookmark list
+I can remove bokmarks from my bookmark list
 
 I receive appropriate feedback when I cannot submit a bookmark
 
